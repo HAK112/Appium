@@ -12,7 +12,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import pages.DefaultCalculatorPage;
 
-public class BaseClass {
+public class BaseClass{
 	public AppiumDriver<MobileElement> driver;
 	DefaultCalculatorPage defaultCalculatorPage;
 	@BeforeTest
