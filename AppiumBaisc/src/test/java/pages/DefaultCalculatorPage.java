@@ -12,6 +12,9 @@ public class DefaultCalculatorPage {
 	private AppiumDriver<MobileElement> driver;
 	
 	@AndroidFindBy(id="digit0")
+	MobileElement cancelButton;
+	
+	@AndroidFindBy(id="digit0")
 	MobileElement digitZero;
 	
 	@AndroidFindBy(id="digit1")
@@ -130,6 +133,10 @@ public class DefaultCalculatorPage {
 	
 	public void removeDefaultScreen() {
 		operatorDivide.click();
+	}
+	
+	public void clearScreen() {
+		cancelButton.click();
 	}
 
 }

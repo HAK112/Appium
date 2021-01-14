@@ -27,6 +27,7 @@ public class BaseClassSong{
 			capabilities.setCapability("appPackage", "com.oppo.music");
 			capabilities.setCapability("appActivity", "com.oppo.music.MainListActivity");
 			capabilities.setCapability(MobileCapabilityType.NO_RESET, "true");
+			
 			URL url = new URL("http://0.0.0.0:4723/wd/hub");
 			driver = new AndroidDriver<MobileElement>(url,capabilities);
 		} catch (Exception e) {
