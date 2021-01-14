@@ -1,67 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-12T19:38:48 PKT" name="Default suite" finished-at="2021-01-12T19:39:16 PKT" duration-ms="27948">
+  <suite started-at="2021-01-14T11:41:30 PKT" name="Default suite" finished-at="2021-01-14T11:41:51 PKT" duration-ms="21206">
     <groups>
     </groups>
-    <test started-at="2021-01-12T19:38:48 PKT" name="Default test" finished-at="2021-01-12T19:39:16 PKT" duration-ms="27948">
-      <class name="tests.PlusTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PlusTestCases@69e1dd28]" started-at="2021-01-12T19:38:48 PKT" name="setUp" finished-at="2021-01-12T19:39:02 PKT" duration-ms="13690" status="PASS">
+    <test started-at="2021-01-14T11:41:30 PKT" name="Default test" finished-at="2021-01-14T11:41:51 PKT" duration-ms="21206">
+      <class name="tests.song.SongTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.song.SongTests@16a0ee18]" started-at="2021-01-14T11:41:30 PKT" name="setUp" finished-at="2021-01-14T11:41:41 PKT" duration-ms="11587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="basicCalculation()[pri:0, instance:tests.PlusTestCases@69e1dd28]" started-at="2021-01-12T19:39:02 PKT" name="basicCalculation" finished-at="2021-01-12T19:39:15 PKT" duration-ms="13184" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at tests.PlusTestCases.basicCalculation(PlusTestCases.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="songVerification()[pri:0, instance:tests.song.SongTests@16a0ee18]" started-at="2021-01-14T11:41:41 PKT" name="songVerification" finished-at="2021-01-14T11:41:50 PKT" duration-ms="8277" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basicCalculation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PlusTestCases@69e1dd28]" started-at="2021-01-12T19:39:15 PKT" name="tearDown" finished-at="2021-01-12T19:39:16 PKT" duration-ms="1043" status="PASS">
+        </test-method> <!-- songVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.song.SongTests@16a0ee18]" started-at="2021-01-14T11:41:50 PKT" name="tearDown" finished-at="2021-01-14T11:41:51 PKT" duration-ms="1308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.PlusTestCases -->
+      </class> <!-- tests.song.SongTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

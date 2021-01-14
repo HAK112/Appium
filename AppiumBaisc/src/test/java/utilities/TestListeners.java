@@ -22,7 +22,7 @@ import com.google.common.io.Files;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import tests.PlusTestCases;
+import tests.calculator.PlusTestCases;
 
 public class TestListeners implements ITestListener{
 	

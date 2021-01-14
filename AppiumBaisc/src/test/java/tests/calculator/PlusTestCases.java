@@ -1,11 +1,11 @@
-package tests;
+package tests.calculator;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.DefaultCalculatorPage;
 
-public class PlusTestCases extends BaseClass {
+public class PlusTestCases extends BaseClassCalculator {
 	@Test
 	public void basicCalculation() {
 		defaultCalculatorPage = new DefaultCalculatorPage(driver);
@@ -15,6 +15,6 @@ public class PlusTestCases extends BaseClass {
 		defaultCalculatorPage.clickDigitNine();
 		defaultCalculatorPage.clickOperatorEquals();
 //		Assert.assertEquals("7+9\r\n=16", defaultCalculatorPage.getResult());
-		Assert.assertTrue(defaultCalculatorPage.getResult().contains("25"));
+		Assert.assertTrue(defaultCalculatorPage.getResult().contains("16"));
 	}
 }
